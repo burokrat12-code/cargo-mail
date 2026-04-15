@@ -12,9 +12,7 @@ RUN apk add --no-cache \
     ca-certificates \
     tzdata \
     openssl \
-    cyrus-sasl \
-    cyrus-sasl-plain \
-    cyrus-sasl-login
+    cyrus-sasl
 
 RUN mkdir -p \
     /etc/rspamd \
